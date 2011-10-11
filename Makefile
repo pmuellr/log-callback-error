@@ -35,6 +35,7 @@ watch:
 #-------------------------------------------------------------------------------
 get-vendor:
 	npm install coffee-script@1.1.2
+	-mkdir vendor
 	curl https://raw.github.com/gist/240922/0f5bedfc42b3422d0dee81fb794afde9f58ed1a6/run-when-changed.py > vendor/run-when-changed.py
 
 #-------------------------------------------------------------------------------
